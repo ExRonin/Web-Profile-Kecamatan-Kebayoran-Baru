@@ -1,0 +1,81 @@
+.clearfloat{
+	clear:both;
+}
+header{
+	display: block;
+	width: 100%;
+	height: 100px;
+	padding: 10px;
+	background-color:grey;
+	color: white;
+}
+aside{
+	display: block;
+	width: 150px;
+	height: 100%;
+	min-height: 400px;
+	background-color:darkgrey;
+	float: left;
+}
+nav ul{
+	display: block;
+	list-style: none;
+	padding:0;
+	margin:0;
+}
+nav ul > li.menu-item{
+	display: block;
+	border-bottom: 1px solid #ccc;
+}
+nav ul > li.menu-item > a{
+	display: block;
+	padding: 10px;
+	width: 100%;
+	color: white;
+	font: 13pt 'trebuchet ms';
+	text-decoration:none;
+	transition:padding-left 1s;
+}
+nav ul > li.menu-item > a:hover{
+	background-color:white;
+	color: black;
+	padding-left:40px;
+}
+nav ul > li.menu-item > a.active{
+	background-color:white;
+	color: black;
+	padding-left:40px;
+}
+section{
+	display: block;
+	width: 77%;
+	background-color:white;
+	height: 100%;
+	min-height:400px;
+	float:right;
+}
+footer{
+	display: block;
+	width: 100%;
+	height: 50px;
+	padding: 10px;
+	background-color:;
+	color: white;
+}
+/*tampilan untuk form tambah produk*/
+.input-form{
+	width: 400px;
+	margin: auto;
+}
+.form-label{
+	display:block;
+	margin-bottom:10px;
+}
+.form-control{
+	padding: 4px;
+	width: 100%;
+	margin-bottom: 10px;
+}
+.btn{
+	padding: 4px;
+}
